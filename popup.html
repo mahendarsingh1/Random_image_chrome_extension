@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Image</title>
+
+    <style>
+        html,
+        body {
+            font-family: sans-serif;
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        button {
+            background-color: blue;
+            border-radius: 4px;
+            padding: 4px 8px;
+            cursor: pointer;
+            position: absolute;
+            right:0%;
+            outline: none;
+            border: none;
+            color: white;
+            font-size: 0.8rem;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button id="button">Reload</button>
+        <img src="https://picsum.photos/400/500" alt="Turn on Internet">
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
